@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clima</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="app">
+        <main>
+            <div class="box main">
+                <div class="top">
+                    <div class="location">
+                        <i class="ph-fill ph-map-pin"></i>
+                        Rio do Sul, SC
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="average">18 <small>°C</small></div>
+                    <div class="minmax">22° <span>16°</span></div>
+                </div>
+                <div class="bottom">
+                    <div class="description">
+                        <img src="./assets/mainbox/wind.svg" alt="icon vento">
+                        <small>
+                            Vento
+                            <p>17 km/h</p>
+                        </small>
+                    </div>
+                    <div class="description">
+                        <img src="./assets/mainbox/moisture.svg" alt="icon umidade">
+                        <small>
+                            umidade
+                            <p>31%</p>
+                        </small>
+                    </div>
+                    <div class="description">
+                        <img src="./assets/mainbox/rain.svg" alt="icon chuva">
+                        <small>
+                            chuva
+                            <p>10%</p>
+                        </small>
+                    </div>
+                </div>
+
+            </div>
+            <div class="wrapper">
+                <div class="box air">
+                    <h2 class="tittle">
+                        <img src="./assets/airbox/leaf.svg" alt="icon folha">
+                        Qualidade do ar
+                    </h2>
+                    <div class="middle">
+                        <p class="good">Boa</p>
+                        <p class="number">21</p>
+                    </div>
+                    
+
+                    <div class="bottom">
+                        <div class="info"><div class="stats">12.9</div>PM2.5</div>
+                        <div class="info"><div class="stats">12.9</div>PM10</div>
+                        <div class="info"><div class="stats">2.1</div>SO₂</div>
+                        <div class="info"><div class="stats">1.4</div>NO₂</div>
+                        <div class="info"><div class="stats">21.2</div>O₃</div>
+                        <div class="info"><div class="stats">0.7</div>CO</div>
+                    </div>
+                </div>
+                <div class="box suntime">
+                    <h2 class="tittle">
+                        <img src="./assets/suntimebox/time.svg" alt="icon sol-relógio">
+                        Horário do Sol
+                    </h2>
+                    <div class="chart-wrapper">
+                        <div class="sun-chart">
+                            <div class="chart">
+                                <img src="./assets/suntimebox/chart.svg" alt="semi cirgulo grafico">
+                            </div>
+                            <time class="now">17:48</time>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <time class="sunrise">6:00</time>
+                        <time class="sunset">18:52</time>
+                    </div>
+                </div>
+                <div class="box week">
+                    <div class="week-days">
+                        <div class="day">
+                            <h2 class="tittle">Amanhã</h2>
+                            <img src="./assets/weekbox/cloudy.svg" alt="">
+                            <div class="temperature">21°<span>16°</span></div>
+                        </div>
+                        <div class="day">
+                            <h2 class="tittle">Sexta-feira</h2>
+                            <img src="./assets/weekbox/sun.svg" alt="">
+                            <div class="temperature">28°<span>20°</span></div>
+                        </div>
+                        <div class="day">
+                            <h2 class="tittle">Sábado</h2>
+                            <img src="./assets/weekbox/rain.svg" alt="">
+                            <div class="temperature">25°<span>21°</span></div>
+                        </div>
+                        <div class="day">
+                            <h2 class="tittle">Domingo</h2>
+                            <img src="./assets/weekbox/storm.svg" alt="">
+                            <div class="temperature">20°<span>14°</span></div>
+                        </div>
+                        <div class="day">
+                            <h2 class="tittle">Segunda-feira</h2>
+                            <img src="./assets/weekbox/weather.svg" alt="">
+                            <div class="temperature">26°<span>18°</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
